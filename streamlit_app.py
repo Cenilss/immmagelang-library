@@ -17,16 +17,16 @@ if "logged_in" not in st.session_state:
 def homepage():
     st.image("https://upload.wikimedia.org/wikipedia/id/3/32/Logo_IMM.svg", width=80)
     st.title("📚 Perpustakaan IMM Magelang")
-    st.write("Silakan login sebagai admin bila Anda merupakan administrator")
 
     col1, col2 = st.columns(2)
     with col1:
+        st.write("Silakan login sebagai admin bila Anda merupakan administrator")
         if st.button("🔐 Login Admin"):
             st.session_state.page = "login"
             st.rerun()
 
-    st.write("Silakan masuk sebagai tamu apabila hanya ingin melihat-lihat buku yang tersedia.")
     with col2:
+        st.write("Silakan masuk sebagai tamu apabila hanya ingin melihat-lihat buku yang tersedia.")
         if st.button("👤 Masuk sebagai Tamu"):
             st.session_state.logged_in = True
             st.session_state.is_admin = False
