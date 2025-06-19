@@ -1,10 +1,37 @@
 {
   "books": [
     {
-      "id": 1,
+      "id": 3,
       "inventory_number": "INV-001",
-      "title": "Manajemen Organisasi IMM",
-      "author": "Ahmad Dahlan",
+      "title": "Pemikiran Islam",
+      "author": "Dr. Muhammad Al-Bahiy",
+      "available": true,
+      "borrower": "",
+      "borrow_date": ""
+    },
+    {
+      "id": 4,
+      "inventory_number": "INV-003",
+      "title": "Filsafat Barat",
+      "author": "Betrand Russel",
+      "available": true,
+      "borrower": "",
+      "borrow_date": ""
+    },
+    {
+      "id": 5,
+      "inventory_number": "INV-004",
+      "title": "Filsafat Islam: Dari Klasik hingga Temporer",
+      "author": "Achmad Khudori Soleh",
+      "available": true,
+      "borrower": "",
+      "borrow_date": ""
+    },
+    {
+      "id": 6,
+      "inventory_number": "INV-002",
+      "title": "Ilmu Mantik",
+      "author": "Muhammad Nuruddin",
       "available": true,
       "borrower": "",
       "borrow_date": ""
