@@ -1,0 +1,13 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "inventory_number": "INV-001",
+      "title": "Manajemen Organisasi IMM",
+      "author": "Ahmad Dahlan",
+      "available": true,
+      "borrower": "",
+      "borrow_date": ""
+    }
+  ]
+}
